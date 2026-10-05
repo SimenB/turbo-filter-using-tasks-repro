@@ -1,0 +1,12 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "futureFlags": {
+    "filterUsingTasks": true
+  },
+  "tasks": {
+    "build": {},
+    "lint": {
+      "dependsOn": ["^build"]
+    }
+  }
+}
